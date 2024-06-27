@@ -39,14 +39,17 @@ const find=(q)=>{
     
 }
 
+setTimeout(()=>{
+    console.log("object")
+}, 100)
 
 const q = "()[]{}"
 console.log(find(q))
 
-// Input: "()"
-// Output: true
+Input: "()"
+Output: true
 
-// Input: "()[]{}"
-// Output: true
+Input: "()[]{}"
+Output: true
 
-// Input: "(]"
+Input: "(]"
